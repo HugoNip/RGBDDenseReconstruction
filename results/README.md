@@ -1,6 +1,6 @@
 # How to open these files?
 ## octomap.bt
-### Input
+### Open one terminal and input
 ```
 username:~$ octovis octomap.bt
 ```
@@ -8,7 +8,7 @@ username:~$ octovis octomap.bt
 ![Screenshot%20from%202020-06-07%2022-50-51.png](https://github.com/HugoNip/RGBDDenseReconstruction/blob/master/results/Screenshot%20from%202020-06-07%2022-50-51.png)
 
 ## map.pcd
-### Input
+### Open one terminal and input
 ```
 username:~$ pcl_viewer map.pcd
 ```
