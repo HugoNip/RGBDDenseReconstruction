@@ -10,12 +10,12 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 find_package(Eigen3 REQUIRED)
 include_directories(${EIGEN3_INCLUDE_DIR})
 
-#pcl
+# pcl
 find_package(PCL REQUIRED)
 include_directories(${PCL_INCLUDE_DIRS})
 add_definitions(${PCL_DEFINITIONS})
 
-#octomap
+# octomap
 find_package(octomap REQUIRED)
 include_directories(${OCTOMAP_INCLUDE_DIRS})
 
