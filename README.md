@@ -60,11 +60,26 @@ make
 ```
 
 ## Run
+### PointCloud
+This method is based on statistical outlier removal filter and voxel filter.
 ```
-./
-./
+./build/pointcloud_mapping
 ```
 
+![Screenshot%20from%202020-06-07%2020-23-15.png](https://github.com/HugoNip/RGBDDenseReconstruction/blob/master/results/Screenshot%20from%202020-06-07%2020-23-15.png)
+
+### Polygon mesh
+This method is based on moving least square (mls) and greedy projection (gp).
+```
+./build/surfel_mapping
+```
+![Screenshot%20from%202020-06-07%2021-23-52.png](https://github.com/HugoNip/RGBDDenseReconstruction/blob/master/results/Screenshot%20from%202020-06-07%2021-23-52.png)
+
+### 
+```
+./build/octomap_mapping
+```
+![Screenshot%20from%202020-06-07%2022-50-51.png](https://github.com/HugoNip/RGBDDenseReconstruction/blob/master/results/Screenshot%20from%202020-06-07%2022-50-51.png)
 
 
 ## Reference
